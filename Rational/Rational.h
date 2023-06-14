@@ -12,8 +12,8 @@ public:
     Rational(const BigInteger b1, const BigInteger b2);
     Rational(const BigInteger& b);
     Rational(int a);
-    Rational operator-() const;
 
+    Rational operator-() const;
     Rational& operator+= (const Rational& r);
     Rational& operator-= (const Rational& r);
 
